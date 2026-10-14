@@ -7,7 +7,7 @@ const education = [
     period: "Year of Passing: 2023",
     grade: "CGPA: 7.32 / 10",
     details:
-      "Transitioned from Mechanical Engineering into software development through self-learning and hands-on project experience.",
+      "Transitioned from Mechanical Engineering into software development through Full Stack Developer training at JSpiders and hands-on project experience.",
   },
 ];
 
@@ -52,19 +52,19 @@ const certifications = [
 
 const highlights = [
   {
-    icon: "🚀",
-    title: "Career Switch",
-    desc: "Pivoted from Mechanical Engineering to Full-Stack Development through self-driven learning.",
+    icon: "🎓",
+    title: "Full-Stack Training",
+    desc: "Completed Full Stack Developer training at JSpiders, building a strong foundation in Java, Spring Boot, SQL, React.js, and database management.",
   },
   {
-    icon: "💡",
-    title: "Self-Taught",
-    desc: "Mastered React.js, Spring Boot, Python, and REST API development independently.",
+    icon: "💻",
+    title: "Full-Stack Development",
+    desc: "Applied my skills in frontend and backend development to build responsive web applications and REST APIs.",
   },
   {
     icon: "🤖",
-    title: "AI Exposure",
-    desc: "Hands-on experience with NLP and AI chatbot development on Nexuvo.ai platform.",
+    title: "AI & Project Experience",
+    desc: "Gained hands-on experience with Python, NLP, and AI chatbot development while contributing to the Nexuvo.ai platform.",
   },
 ];
 

@@ -1,3 +1,4 @@
+import shivaPhoto from "../assets/shivaPhoto.png";
 export function SectionHeader({ tag, title, dark }) {
   const accent = dark ? "#00ff88" : "#00aa55";
   const text = dark ? "#ffffff" : "#0a0a0f";
@@ -92,16 +93,17 @@ export default function About({ dark }) {
                   gap: 8,
                 }}
               >
-                <span style={{ fontSize: 72 }}>👨‍💻</span>
-                <p
+                <img
+                  src={shivaPhoto}
+                  alt="Shivakumar - Full Stack Developer"
                   style={{
-                    color: accent,
-                    fontSize: 12,
-                    letterSpacing: "0.2em",
+                    width: "100%",
+                    height: "100%",
+                    objectFit: "contain",
+                    objectPosition: "center bottom",
+                    display: "block",
                   }}
-                >
-                  Full-Stack Dev
-                </p>
+                />
               </div>
             </div>
             <div
@@ -159,7 +161,7 @@ export default function About({ dark }) {
               }}
             >
               I'm a <span style={{ color: accent }}>Full-Stack Developer</span>{" "}
-              with 2.3 years of experience at{" "}
+              with 2.5 years of experience at{" "}
               <span style={{ color: accent }}>Hytalentech</span>, building
               scalable web applications with{" "}
               <span style={{ color: accent }}>

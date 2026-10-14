@@ -125,7 +125,7 @@ export default function Hero({ dark }) {
           }}
         >
           Passionate Full-Stack Developer with{" "}
-          <span style={{ color: accent }}>2.3 years</span> of experience
+          <span style={{ color: accent }}>2.5 years</span> of experience
           building scalable web apps using{" "}
           <span style={{ color: accent }}>React.js, Redux, Spring Boot</span>{" "}
           and Python — from pixel-perfect UIs to robust backend APIs.
@@ -186,10 +186,10 @@ export default function Hero({ dark }) {
           style={{ marginTop: 80, display: "flex", flexWrap: "wrap", gap: 48 }}
         >
           {[
-            { label: "Years of Experience", value: "2.3+" },
+            { label: "Years of Experience", value: "2.5+" },
             { label: "Projects Delivered", value: "10+" },
-            { label: "Technologies", value: "15+" },
-            { label: "GitHub Repos", value: "20+" },
+            { label: "Technologies", value: "5+" },
+            { label: "GitHub Repos", value: "10+" },
           ].map((stat) => (
             <div key={stat.label}>
               <p style={{ fontSize: 36, fontWeight: 700, color: accent }}>
